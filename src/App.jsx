@@ -125,6 +125,7 @@ export default function App() {
   if (!loaded) return (
     <div style={{ minHeight:"100vh", display:"flex", alignItems:"center", justifyContent:"center", background:theme.bg }}>
       <div style={{ textAlign:"center", color:theme.navy }}>
+        <img src="/logo.jpg" alt="ATLAS" style={{ width:64, height:64, borderRadius:"50%", border:`2px solid ${theme.accent}`, objectFit:"cover", marginBottom:8 }} />
         <div style={{ fontSize:28, fontWeight:700, letterSpacing:4, fontFamily:"'Georgia',serif" }}>ATLAS</div>
         <div style={{ fontSize:12, color:theme.gray, marginTop:8 }}>読み込み中...</div>
       </div>
@@ -161,7 +162,7 @@ export default function App() {
   return (
     <div style={{ minHeight:"100vh", background:theme.bg, fontFamily:"'Noto Sans JP','Helvetica Neue',sans-serif" }}>
       <header style={{ background:`linear-gradient(135deg, ${theme.navy} 0%, ${theme.navyLight} 100%)`, padding:"16px 20px", display:"flex", alignItems:"center", gap:10, boxShadow:"0 2px 12px rgba(26,39,68,0.3)" }}>
-        <div style={{ width:36, height:36, borderRadius:"50%", border:`2px solid ${theme.accent}`, display:"flex", alignItems:"center", justifyContent:"center", fontSize:14, fontWeight:800, color:theme.accent, fontFamily:"'Georgia',serif", letterSpacing:1 }}>A</div>
+        <img src="/logo.jpg" alt="ATLAS" style={{ width:40, height:40, borderRadius:"50%", border:`2px solid ${theme.accent}`, objectFit:"cover" }} />
         <div>
           <div style={{ color:theme.white, fontSize:16, fontWeight:700, letterSpacing:3, fontFamily:"'Georgia',serif" }}>ATLAS</div>
           <div style={{ color:theme.accentLight, fontSize:9, letterSpacing:1.5, marginTop:-1 }}>上部頸椎専門 ｜ ご予約</div>
